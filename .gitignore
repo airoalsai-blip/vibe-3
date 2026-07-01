@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.venv/
+.uv-cache/
+.codex/
+
+# Build outputs
+dist/
+build/
+
+# Local runtime data
+backend/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

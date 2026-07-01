@@ -1,0 +1,2 @@
+# The current scaffold runs with Python standard library only.
+# Add FastAPI, SQLAlchemy, Alembic, and worker dependencies when implementation begins.
