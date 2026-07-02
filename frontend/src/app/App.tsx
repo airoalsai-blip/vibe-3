@@ -10,7 +10,7 @@ import { StatusBadge } from "../components/StatusBadge";
 type PageKey = "calendar" | "excel" | "chatbot" | "news" | "admin";
 
 const pages: Array<{ key: PageKey; label: string }> = [
-  { key: "calendar", label: "팀원 스케줄" },
+  { key: "calendar", label: "팀원 일정" },
   { key: "excel", label: "엑셀 자동화" },
   { key: "chatbot", label: "민원 챗봇" },
   { key: "news", label: "뉴스 수집" },
@@ -77,7 +77,7 @@ export function App() {
       <main className="main-panel">
         <section className="connection-panel">
           <div>
-            <h1>스캐폴드 연동 확인</h1>
+            <h1>대시보드 연동 확인</h1>
             <p>FE 페이지 구조, FE-BE API, BE-DB 연결 상태를 확인합니다.</p>
           </div>
           <div className="connection-grid">
